@@ -110,4 +110,10 @@
                                  "generic-functions"
                                  "classes"
                                  "bops"))
+             (:file "erlang-map"
+                    :depends-on ("packages"
+                                 "conditions"
+                                 "generic-functions"
+                                 "classes"
+                                 "bops"))
              ))))

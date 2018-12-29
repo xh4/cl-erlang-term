@@ -68,6 +68,7 @@ be implemented by an application that wants to use cached atom references.")
    #:erlang-port
    #:erlang-reference
    #:erlang-tuple
+   #:erlang-map
 
    ;; Class methods and functions
    #:encode
@@ -83,6 +84,9 @@ be implemented by an application that wants to use cached atom references.")
    #:tuple
    #:tuple-arity
    #:tuple-ref
+   #:make-map
+   #:map-arity
+   #:map-ref
    #:binary
    #:string-to-binary
    #:bytes-to-binary
